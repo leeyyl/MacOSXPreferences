@@ -18,7 +18,7 @@
     [task setLaunchPath:@"/usr/bin/defaults"];
     
 //    NSArray *arguments;
-//    arguments = [NSArray arrayWithObjects: @"write", @"com.apple.screencapture", /*@"type"*/@"location", /*@"BMP"*/@"/Users/Wallace/Documents", nil];
+//    arguments = [@"write", @"com.apple.screencapture", /*@"type"*/@"location", /*@"BMP"*/@"/Users/Wallace/Documents"];
 //    [task setArguments: arguments];
     
     NSArray *arguments = [NSArray arrayWithObjects:@"write", @"com.apple.Safari", @"WebKitHistoryAgeInDaysLimit", @"", nil];
